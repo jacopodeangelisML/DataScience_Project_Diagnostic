@@ -1,25 +1,2 @@
 Project title: Identifying Mammographic Mass Benignancy vs Malignancy through Decision Tree and Random Forest algorithms
 
-Data information: 
-Mammography is the most effective method for breast cancer screening available today. However, the low positive predictive value of breast biopsy resulting from mammogram interpretation leads to approximately 70% unnecessary biopsies with benign outcomes. To reduce the high number of unnecessary breast biopsies, several computer-aided diagnosis (CAD) systems have been proposed in the last years.
-These systems help physicians in their decision to perform a breast biopsy on a suspicious 
-lesion seen in a mammogram or to perform a short term follow-up examination instead. 
-This data set can be used to predict the severity (benign or malignant)  of a mammographic mass lesion from BI-RADS attributes and the patient's age. It contains a BI-RADS assessment, the patient's age and three BI-RADS attributes together with the ground truth (the severity field) for 516 benign and 445 malignant masses that have been identified on full field digital mammograms collected at the Institute of Radiology of the University Erlangen-Nuremberg between 2003 and 2006. Each instance has an associated BI-RADS assessment ranging from 1 (definitely benign) to 5 (highly suggestive of malignancy) assigned in a double-review process by physicians. Assuming that all cases with BI-RADS assessments greater or equal a given value (varying from 1 to 5), are malignant and the other cases benign, sensitivities and associated specificities can be calculated.
-
-Attributes:
-1.	BI-RADS assessment: 1 to 5 (ordinal, non-predictive!) 
-2.	Age: patient's age in years (integer) 
-3.	Shape: mass shape: round = 1 oval = 2  lobular = 3 irregular=4 (nominal) 
-4.	Margin: mass margin: circumscribed=1 microlobulated=2 obscured=3 ill-defined=4 spiculated=5 (nominal) 
-5.	Density: mass density high=1 iso=2 low=3 fat-containing=4 (ordinal) 
-6.	Target(severity): benign=0 or malignant=1 (binominal, goal field!)
-
-Citation:
-M. Elter, R. Schulz-Wendtland and T. Wittenberg (2007). The prediction of breast cancer biopsy outcomes using two CAD approaches that both emphasize an intelligible decision process. Medical Physics 34(11), pp. 4164-4172.
-
-Data Repository: UCI Machine Learning Repository
-
-Project aims:
-Developing, training and testing Decision Tree and Random Forest classifiers to detect if patient’s mammographic mass is benignant or malignant, based on given attributes.
-Model performance will be evaluated by computing: precision (number of true positive observations divided by the number of total positive predicted values (both false positive and true positive), recall (the number of true positive observations divided by the sum of true positive and false negative observations) and f1 score (harmonic mean between precision and recall). 
-
