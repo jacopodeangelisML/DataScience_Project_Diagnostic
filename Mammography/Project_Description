@@ -18,5 +18,5 @@ M. Elter, R. Schulz-Wendtland and T. Wittenberg (2007). The prediction of breast
 Data Repository: UCI Machine Learning Repository
 
 Project aims:
-Developing, training and testing Decision Tree and Random Forest classifiers to detect if patient’s mammographic mass is benignant or malignant, based on given attributes.
+Developing, training and testing Decision Tree and Random Forest classifiers to detect if patient’s mammographic mass is benign or malignant, based on given attributes.
 Model performance will be evaluated by computing: precision (number of true positive observations divided by the number of total positive predicted values (both false positive and true positive), recall (the number of true positive observations divided by the sum of true positive and false negative observations) and f1 score (harmonic mean between precision and recall). 
