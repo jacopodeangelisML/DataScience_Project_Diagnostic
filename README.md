@@ -1,4 +1,4 @@
-# Repository
+# Identifying Mammographic Mass Benignancy vs Malignancy through Decision Tree and Random Forest algorithms
 #Import libraries
 import pandas as pd
 import numpy as np
